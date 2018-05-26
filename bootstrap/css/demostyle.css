@@ -1,0 +1,161 @@
+body{
+    margin: 10px;
+    font-family: 'Cutive Mono', monospace;
+    color: black;
+
+}
+
+.header{
+    background-color: #DEF2F1; 
+    color: white;
+    height: 90px;
+    padding-left: 40%;
+}
+
+.nav{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+.content{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.footer{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.links a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.links a:hover{
+    color: black;
+}
+
+.links{
+    margin-top: 40px; 
+    font-size: 0.75rem;
+    float: left;
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+.endbanner{
+    margin-top: 20px;
+    margin-left: 440px;
+    margin-right: 160px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    float:left;
+}
+
+.endbanner a:hover{
+    color: #BAB2B5;
+}
+
+.endbanner a{
+    color: #3AAFA9;
+    text-decoration: none;
+}
+
+.introduction{
+    margin-top: 40px; 
+    font-size: 0.75rem;
+    float: left;
+    color: black;
+    text-align: center;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.white{
+    height: 150px;
+    background-color: white;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+
+.blue{
+    background-color: cornflowerblue;
+    height: 100px;
+}
+.green{
+    background-color: greenyellow;
+    height: 150px;
+}
+
+.orange{
+    background-color: orange;
+    height: 200px;
+}
+
+.grey{
+    background-color: darkgray;
+    height: 100px;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.pink{
+    background-color: pink;
+    height: 50px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 300px;
+}
+
+.lime{
+    background-color: lime;
+    height: 200px;
+}
+/* sm devices */ 
+@media (min-width: 576px){
+    body{
+        background-color: red;
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color: orange;
+    }
+        .grey{
+        height: 150px;
+}
+@media (min-width: 922){
+    body{
+        background-color: green;
+    }
+    .grey{
+        height: 150px;
+    }
+}
+
+/* xl */ 
+@media (min-width:1200px){
+    body{
+        background-color: blue;
+    }
+}
