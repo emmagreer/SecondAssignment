@@ -69,14 +69,20 @@ img {
 }
 */
 .introduction{
-    margin-top: 40px; 
+    margin-top: 70px; 
+    padding-top: 10px;
     font-size: 0.75rem;
     float: left;
     color: black;
-    text-align: center;
+    text-align: left;
+    width: 40%;
+    font-size: 1rem;
 }
 
 
+.photo{
+    margin-top: 50px;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -90,7 +96,36 @@ body{
     padding-right: 40%;
 }
 
+.quote{
+    margin-top: 70px; 
+    padding-top: 10px;
+    font-size: 0.75rem;
+    float: left;
+    color: black;
+    text-align: center;
+    width: 90%;
+    font-size: 1rem;
+    background-color: floralwhite;
+}
 
+.bluebox{
+    height: 15%;
+    width: 70%;
+    background-color: skyblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: inherit;
+}
+/* .about{
+    margin-top: 30px;
+    width: 20%;
+    height: 20%;
+    align-content: center;
+    float: inherit;
+    padding-left: 50%;
+    padding-right: 40%;
+}
+/*
 .blue{
     background-color: cornflowerblue;
     height: 100px;
@@ -127,6 +162,7 @@ body{
     height: 200px;
 }
 /* sm devices */ 
+/*
 @media (min-width: 576px){
     body{
         background-color: red;
@@ -147,10 +183,12 @@ body{
         height: 150px;
     }
 }
-
+/* 
 /* xl */ 
+/*
 @media (min-width:1200px){
     body{
         background-color: blue;
     }
-}
+} 
+*/
