@@ -2,7 +2,6 @@ body{
     margin: 10px;
     font-family: 'Montserrat', sans-serif;
     color: black;
-
 }
 
 .header{
@@ -17,11 +16,10 @@ body{
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
 }
 
 .logo{
-    min-width: 600px;
+    min-width: 800px;
 }
 
 img {
@@ -30,50 +28,44 @@ img {
 } 
 
 .welcome{
-    width: 40%;
+    width: 80%;
     height: auto;
-    float: left;
-    margin-top: 10%;
+    float: right;
     margin-left: 10%;
-    margin-right: 700px;
-    min-width: 400px;
+    margin-right: 10%;
+    min-width: 300px;
+    max-width: 600px;
+    margin-top: 20%;
 }
 
-.contact{
-    width: 50%; 
-    float: inherit;
-    margin-top: 10%;
-    margin-left: 500px;
-    margin-right: 400px;
-    min-width: 400px;
-}
 
-.contacttext{
-    width: 40%; 
-    float: left;
-    min-width: 400px;
-    text-align: center;
-}
-
-.introduction{
-    margin-top: 10px; 
+.introduction{ 
     padding-top: 10px;
     font-size: 0.75rem;
     float: left;
     color: black;
-    text-align: left;
-    width: 40%;
-    font-size: 1rem;
+    text-align: center;
+    width: 100%;
     min-width: 300px;
+    
 }
 
 .photo{
     margin-top: 50px;
-    margin-right: 10%;
-    min-width: 600px;
+    margin-right: 13%;
+    min-width: 1000px;
+    width: 125%;
+    margin-left: 13%;
    }
 
-
+.contact{
+    width: 50%; 
+    float: inherit;
+    margin-top: 25%;
+    margin-left: 45%;
+    min-width: 400px;
+    text-align: center;
+}
 
 .white{
     height: 150px;
@@ -82,19 +74,6 @@ img {
     padding-right: 40%;
 }
 
-.people{
-    margin-top: 10%;
-    margin-right: 50%;
-    margin-left: 40%;
-    min-width: 500px;
-    width: 70%;
-    float: inherit;
-}
-
-.photo2{
-    width: 1000px;
-    min-width: 40%;
-}
 
 
 /* sm devices */ 
